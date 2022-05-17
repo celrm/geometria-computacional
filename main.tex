@@ -1,0 +1,48 @@
+\documentclass[aspectratio=43]{beamer}
+\usepackage[spanish]{babel}
+
+\usepackage{fontspec}
+
+\usefonttheme{serif}     % Font theme: serif
+\usepackage{ccfonts}     % Font family: Concrete Math
+\usepackage[T1]{fontenc} % Font encoding: T1
+
+\newfontfamily{\fancyfont}{Apex Mk3-Medium.otf}
+
+\input{preamble}
+\title{Geometría Computacional}
+\subtitle{en el plano}
+\author[Celia Rubio]{Celia Rubio Madrigal}
+\institute[UCM]{
+    Métodos Algorítmicos de Resolución de Problemas%
+    \\%
+    Universidad Complutense de Madrid%
+}
+\date{2019-20}
+
+%\usepackage{biblatex}
+%\addbibresource{bib}
+
+\begin{document}
+
+    \frame{\titlepage}
+    
+    % \begin{frame}{Índice}
+    %     \tableofcontents
+    % \end{frame}
+    
+    \input{contents.tex}
+    
+%    \section*{Referencias} %You can remove this if you do not want to use it
+%        \nocite{cormen2001introduction}\nocite{shamos1978computational}%\nocite{graham1972efficient}
+%        \begin{frame}{Referencias}
+%            \printbibliography
+%        \end{frame}
+
+    % \section{}
+    % \begin{frame}{}
+    %     \centering
+    %         \Huge%\bfseries\sffamily
+    %     \textcolor{orange}{The End}
+    % \end{frame}
+\end{document}
